@@ -1,0 +1,53 @@
+import java.util.Scanner;
+
+public class Customers {
+private String fullName;
+private String DOB;
+private DOR;
+private String address;
+private nationality;
+
+public void setFullName(String fullName) {
+this.fullName = fullName;
+}
+
+public void setDateOfBirth(String dateOfBirth) {
+this.dateOfBirth = dateOfBirth;
+}
+
+public String getFullname() {
+return fullname;
+}
+
+public String getDOB() {
+return DOB;
+}
+public String getDOR()
+returnDOR;
+}
+public String getnationality()
+returnnationality;
+}
+public String getaddress()
+returnaddress;
+
+public static void main(String[] args) {
+Scanner scanner = new Scanner(System.in);
+
+System.out.println("Enter the full name: ");
+String fullNameInput = scanner.nextLine();
+
+System.out.println("Enter the date of birth: ");
+String DOBInput = scanner.nextLine();
+
+Customers customer = new Customers();
+customer.setFullName(fullNameInput);
+customer.setDOB(DOBInput);
+
+System.out.println("Customer Information:");
+System.out.println("Full Name: " + customer.getFullName());
+System.out.println("DOB: " + customer.getDOB());
+}
+}
+
+
